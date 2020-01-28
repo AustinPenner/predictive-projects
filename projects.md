@@ -1,30 +1,36 @@
 # Projects
 
-## Analyze what effect President Trump's Twitter feed has on the stock market
+## Predict Restaurant Rating From Review
 
-Approach: Use time series analysis and sentiment analysis to compare Trump's twitter feed against the stock market. The goal is to find some relationship where Trump's twitter feed predicts stock market prices based on the NLP analysis of his tweet (positive, negative, angry, etc). I would look at overall stock market, S&P 500, and specific industries (tech, energy, etc).
+### Approach: 
+Yelp's restaurant dataset dataset has reviews and ratings for many restaurants. I will use NLP and some form of regression to predict the 5 star rating that a user provides based on their text rating only. I may start with Naive Bayes, or decide the NLP model after learning more this week. 
 
-Interaction: Present findings in Jupyter Notebook/Github/Slides as the model won't be interactive.
+### Interaction: 
+Present findings in Jupyter Notebook/Github/Slides as the model won't be interactive.
 
-Data Sources: 1) All Donald Trump tweets since his inauguration. 2) Stock market data since Trump's inauguration, including company industry and whether or not company belongs to S&P 500.
+### Data Sources: 
+[Yelp reviews dataset](https://www.yelp.com/dataset/download) of restaurants in 10 cities (3.6 gigs)
+
+## Predicting Winning Team in Rocket League
+
+### Approach: 
+Rocket League is a video game where cars play soccer. I will use the plethora of data provided at [ballchasing.com](https://ballchasing.com/) to do EDA and make a model to predict the winning team. There is an astounding amount of data available in each replay, which should make predicting the winner relatively easy. Assuming this is the case, I'd like to see what features are most important and try and train a good model on minimal features. I may start with a random forest and try a few other classifiers from there.
+
+### Interaction: 
+Present findings in Jupyter Notebook/Github/Slides as the model won't be interactive.
+
+### Data Sources: 
+I will utilize the API from [ballchasing.com](https://ballchasing.com/), a repository of community-uploaded replays. Each replay has a good deal of statistics from the match.
 
 
-## Analyze how the general populace's tweets about a company affect their stock price
+## Effect of President Trump's Twitter Feed on the Stock Market
 
-Approach: Gather a large amount of twitter user data where company X was mentioned. Use time series analysis and sentiment analysis to see if aggregated user sentiment is predictive of stock prices for some company. 
+### Approach: 
+Use time series analysis and sentiment analysis to compare Trump's twitter feed against the stock market. The goal is to find some relationship where Trump's twitter feed predicts stock market prices based on the NLP analysis of his tweet (positive, negative, angry, etc). I would look at overall stock market, S&P 500, and specific industries (tech, energy, etc).
 
-Interaction: Create interactive web app that visualizes user mentions of company and the relationship between them. This could be filtered on company and sentiment.
+### Interaction: 
+Present findings in Jupyter Notebook/Github/Slides as the model won't be interactive.
 
-Data Sources: 1) 10,000+ tweets per company where this company is mentioned. 2) Recent stock market data including company industry and whether or not company belongs to S&P 500.
-
-## Song lyric analysis
-
-Approach: Pull top listened to albums either from Billboard or Spotify, grab song lyrics for these albums, then predict critic ratings based on song lyrics.
-
-Interaction: Create interactive web app that visualizes data, allowing user to look at albums by year.
-
-Data Sources: 1) Either a) Billboard top 100 songs for last 40 years or b) top Spotify songs for last X years. 2) Web scrape song lyrics from google or a song lyrics website. 3) Web scrape critic album ratings
-
-## Capstone project prediction
-
-Approach: Look at all past Galvanize capstones on Youtube, transcribe the audio, and grab their github pages. Then feed this data into GPT2 and simulate Galvanize capstone projects from this data. Just kidding.
+### Data Sources: 
+1. All Donald Trump tweets since his inauguration. 
+2. Stock market data since Trump's inauguration, including company industry and whether or not company belongs to S&P 500.
