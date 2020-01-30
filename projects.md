@@ -3,13 +3,15 @@
 ## Predict Restaurant Rating From Review
 
 ### Approach: 
-Yelp's restaurant dataset dataset has reviews and ratings for many restaurants. I will use NLP and some form of regression to predict the 5 star rating that a user provides based on their text rating only. I may start with Naive Bayes, or decide the NLP model after learning more this week. 
+Yelp's restaurant dataset dataset has reviews and ratings for many restaurants. I will use NLP and some form of regression to predict the 5 star rating that a user provides based on their text rating only. Models: I'll start with Linear Regression as a benchmark before trying Naive Bayes, Decision Trees, and Random Forest. (See [this](https://towardsdatascience.com/review-rating-prediction-a-combined-approach-538c617c495c) article for a related project and [this](https://arxiv.org/ftp/arxiv/papers/1904/1904.04096.pdf) article for a Neural Network-based approach.)
+
+If time permits, I'll also use some unsupervised algorithm to cluster Yelp users.
 
 ### Interaction: 
-Present findings in Jupyter Notebook/Github/Slides as the model won't be interactive.
+Present findings in Jupyter Notebook/Github/Slides as the model won't be interactive. 
 
 ### Data Sources: 
-[Yelp reviews dataset](https://www.yelp.com/dataset/download) of restaurants in 10 cities (3.6 gigs)
+[Yelp reviews dataset](https://www.yelp.com/dataset/download) of restaurants in 10 cities (3.6 gigs). This contains data about the business, user reviews, and user data.
 
 ## Predicting Winning Team in Rocket League
 
@@ -26,7 +28,9 @@ I will utilize the API from [ballchasing.com](https://ballchasing.com/), a repos
 ## Effect of President Trump's Twitter Feed on the Stock Market
 
 ### Approach: 
-Use time series analysis and sentiment analysis to compare Trump's twitter feed against the stock market. The goal is to find some relationship where Trump's twitter feed predicts stock market prices based on the NLP analysis of his tweet (positive, negative, angry, etc). I would look at overall stock market, S&P 500, and specific industries (tech, energy, etc).
+Use time series analysis and sentiment analysis to compare Trump's twitter feed against the stock market. The goal is to find some relationship where Trump's twitter feed predicts stock market prices based on the NLP analysis of his tweet (positive, negative, angry, etc). I would look at overall stock market, S&P 500, and specific industries (tech, energy, etc). This project would take the longest due to the complex nature of the subject and the types of analysis required. 
+
+Similar studies have been done [here](https://www.nottingham.ac.uk/economics/documents/research-first/krishan-rayarel.pdf) and [here](https://www.fxcm.com/uk/insights/president-trumps-twitter-impact-forex-markets-stocks/).
 
 ### Interaction: 
 Present findings in Jupyter Notebook/Github/Slides as the model won't be interactive.
