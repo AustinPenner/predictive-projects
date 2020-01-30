@@ -1,6 +1,6 @@
 # Projects
 
-## Predict Restaurant Rating From Review
+## Predict Ratings From Reviews
 
 ### Approach: 
 Yelp's restaurant dataset dataset has reviews and ratings for many restaurants. I will use NLP and some form of regression to predict the 5 star rating that a user provides based on their text rating only. Models: I'll start with Linear Regression as a benchmark before trying Naive Bayes, Decision Trees, and Random Forest. (See [this](https://towardsdatascience.com/review-rating-prediction-a-combined-approach-538c617c495c) article for a related project and [this](https://arxiv.org/ftp/arxiv/papers/1904/1904.04096.pdf) article for a Neural Network-based approach.)
